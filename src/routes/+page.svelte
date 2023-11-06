@@ -4,7 +4,7 @@
     <tr>
         <th>Game</th>
         <th>Type</th>
-        <th>Difficult</th>
+        <th>Difficulty</th>
         <th>Players</th>
         <th>Decks</th>
     </tr>
@@ -135,3 +135,22 @@
         <td>1</td>
     </tr>
 </table>
+
+<style>
+    :root {
+        --font-body: monospace;
+        --color-bg: rgb(36, 55, 70);
+        --color-bg-darker: rgb(25, 38, 49);
+        --color-highlight: rgb(87, 215, 255);
+        --color-text: rgb(255, 255, 255);
+        font-family: var(--font-body);
+        background-color: var(--color-bg);
+        color: var(--color-text);
+    }
+
+    * { font-size: medium; }
+    h1, h2, h3, h4, h5, h6 { margin: 0; } /* Clear spacing */
+    h1, h2, h3, h4, h5, h6 { padding: 3px; } /* Match table */
+    a { color: var(--color-highlight); }
+    tr th, tr td { text-align: left;  }
+</style>
