@@ -39,11 +39,4 @@ You can preview the production build with `npm run preview`.
 
 ## TODO
 
-- Typography
-- Background
-- Table layout
-- Row hover
 - Favicon
-- Theme color
-- Wedding reference
-- Table sort / filter
