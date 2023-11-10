@@ -96,9 +96,10 @@
 <style>
     :root {
         --font-body: monospace;
-        --color-bg: rgb(36, 55, 70);
-        --color-bg-darker: rgb(25, 38, 49);
-        --color-highlight: rgb(87, 215, 255);
+        /* --color-bg: rgb(36, 55, 70);
+        --color-highlight: rgb(87, 215, 255); */
+        --color-bg: rgb(26, 43, 44);
+        --color-highlight: xrgb(160,191,192);
         --color-text: rgb(255, 255, 255);
         font-family: var(--font-body);
         background-color: var(--color-bg);
